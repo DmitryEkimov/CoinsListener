@@ -1,0 +1,6 @@
+include:
+  - project: "deployment"
+    file: ".templates/workflow.gitlab-ci.yml"
+
+variables:
+    SKIP_DEPLOY_PACKAGES_JOBS: "true"

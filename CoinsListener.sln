@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D59D9B4-CC7E-4084-BA98-A645AEFCA035}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+		.manifests\deployment.yaml = .manifests\deployment.yaml
+		Directory.Build.props = Directory.Build.props
+		Dockerfile = Dockerfile
+		icon.png = icon.png
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+		Version.props = Version.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bastion.Coins.Listener", "Bastion.Coins.Listener\Bastion.Coins.Listener.csproj", "{D573C64D-A989-4C9F-A85D-F304522C31C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bastion.Coins.Listener.Tests", "Bastion.Coins.Listener.Tests\Bastion.Coins.Listener.Tests.csproj", "{D3356505-AB78-4327-9CEB-81451396517C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D573C64D-A989-4C9F-A85D-F304522C31C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D573C64D-A989-4C9F-A85D-F304522C31C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D573C64D-A989-4C9F-A85D-F304522C31C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D573C64D-A989-4C9F-A85D-F304522C31C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3356505-AB78-4327-9CEB-81451396517C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3356505-AB78-4327-9CEB-81451396517C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3356505-AB78-4327-9CEB-81451396517C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3356505-AB78-4327-9CEB-81451396517C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B9A01E5-0E3C-4DFC-B2EF-82178FA8A516}
+	EndGlobalSection
+EndGlobal

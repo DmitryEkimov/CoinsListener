@@ -1,0 +1,10 @@
+<Project>
+  <Import Project="Version.props" />
+
+  <PropertyGroup>
+    <PackageIcon>icon.png</PackageIcon>
+    <License>LICENSE</License>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
