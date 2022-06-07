@@ -20,9 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Version.props = Version.props
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bastion.Coins.Listener", "Bastion.Coins.Listener\Bastion.Coins.Listener.csproj", "{D573C64D-A989-4C9F-A85D-F304522C31C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsListener.Listener", "CoinsListener\CoinsListener.csproj", "{D573C64D-A989-4C9F-A85D-F304522C31C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bastion.Coins.Listener.Tests", "Bastion.Coins.Listener.Tests\Bastion.Coins.Listener.Tests.csproj", "{D3356505-AB78-4327-9CEB-81451396517C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinsListener.Tests", "CoinsListener.Tests\CoinsListener.Tests.csproj", "{D3356505-AB78-4327-9CEB-81451396517C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
